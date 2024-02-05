@@ -5,6 +5,7 @@ its sum ,subtraction, multiplication, division.
 maximum and minimum.
 
 3.Write a function that gets length and width of a rectangle and returns area.
+
 4.Write a function that gets radius of a circle and returns area.
 
 5.Write a function that gets three numbers and returns medium.
