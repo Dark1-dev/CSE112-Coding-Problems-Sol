@@ -1,21 +1,14 @@
-#include <iostream>
-#include <cstring>
+#include <bits\stdc++.h>
 
 using namespace std;
 
-int main()
-{
-    char str1[1024], str2[2048];
+int main() {
+    string str1 = "Hello, ";
+    string str2 = "World!";
 
-    cout << "1st string: ";
-    fgets(str1,1024,stdin);
+    string result = str1 + str2;
 
-    cout << "2nd string: ";
-    fgets(str2,2048,stdin);
-
-    strcat(str2,str1);
-
-    cout << "Added strings are: " << str2;
+    cout << "Concatenated String: " << result << '\n';
 
     return 0;
 }
